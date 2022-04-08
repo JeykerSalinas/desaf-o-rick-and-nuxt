@@ -2,7 +2,7 @@
   <v-row justify="center" align="center">
     <!-- <v-data-iterator></v-data-iterator> -->
     <v-col cols="12" class="text-center">
-      <h1>Rick and Morty</h1>
+      <h1>Rick and Morty APP</h1>
     </v-col>
     <v-col v-for="(item, i) in data" :key="i" cols="6" md="4">
       <v-card :loading="loading" class="mx-auto my-12" max-width="300">
